@@ -1,0 +1,64 @@
+/************** TAG SELECTORS ****************/
+body {
+  background-color:#C5C571;
+  text-align: center;
+}
+
+h1 {
+  color:#C47C35;
+  text-decoration:underline;
+  font-family: serif;
+  width: 30%;
+  margin: 0 auto 0 auto;
+
+}
+
+h3 {
+  color: #C47C35
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+p {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+ }
+p {
+  font-family: monospace;
+  font-size: 30px;
+}
+table {
+  margin: auto;
+  text-align: center;
+}
+/********************** CLASS SELECTORS *****************/
+.gallery {
+  font-size: 30px;
+}
+.topcloud {
+  top: 0px;
+}
+.mountain {
+  position: relative;
+  left: 0px;
+}
+.top-cloud {
+  position: absolute;
+  left: 1100px;
+  display: block;
+}
+.bottom-cloud {
+  position: absolute;
+
+}
+.profile {
+  position:relative;
+  margin-right: 0px;
+}
