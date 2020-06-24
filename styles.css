@@ -42,8 +42,14 @@ table {
   margin: auto;
   text-align: center;
 }
-
+#navbarTogglerDemo02{
+  position: fixed;
+}
 /********************** CLASS SELECTORS *****************/
+.dropdown{
+  margin-top:10px;
+  padding-left: 60%;
+}
 .gallery {
   font-size: 30px;
 }
@@ -76,9 +82,9 @@ table {
 
 .skill-row {
   width:50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
-  line-height: 2;
+  line-height: 1;
 }
 
 .code-img {
@@ -106,9 +112,10 @@ table {
   margin-top: auto;
 }
 .navbar-brand{
-  padding-left: 50px;
-
+margin-right: 5%;
+  padding-top:20px;
 }
+
 .secBtn {
   margin-left: 20px;
   padding-left: 10px;
@@ -117,5 +124,7 @@ table {
   width:100%;
   text-align: center;
   position: relative;
-
+}
+.card{
+  margin:10px;
 }

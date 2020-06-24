@@ -9,8 +9,19 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>
+
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+  });
+});
+</script>
+
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico">
  </head>
@@ -29,13 +40,14 @@
 
       <nav class="navbar navbar-expand-sm navbar-dark">
 
-        <a class="navbar-brand" href=""><i class="fas fa-home"></i>   Web Developer</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
         </button>
+<a class="navbar-brand" href=""><i class="fas fa-home"></i>   Web Developer</a>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse dropdown" id="navbarTogglerDemo02">
+
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -48,11 +60,27 @@
               <a class="nav-link" href="#download">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#download">Download</a>
+              <a  class="nav-link" href="#download">Download</a>
+            </li>
+            <li class="nav-item">
+              <a tabindex="-1" class="nav-link" href="#">Help</a>
             </li>
           </ul>
 
-        </div>
+        <!--  <div class="dropdown">
+            <!-- Link or button to toggle dropdown -->
+            <!--<ul class="dropdown-menu navbar-nav ml-auto pull-right" role="menu" aria-labelledby="dropdownMenu">
+              <li class= nav-item><a tabindex="-1" class="nav-link" href="contactme.html">Contact</a></li>
+              <li><a tabindex="-1" href="#">Another action</a></li>
+              <li><a tabindex="-1" href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Separated link</a></li>
+            </ul>
+          -->
+          </div>
+
+
+
       </nav>
 
 
@@ -105,6 +133,7 @@
 
    <hr>
     <div class="skill-row">
+
      <h2> Hot Wings Challenge</h2>
       <p> But my best skill is actually in eating hot wings.
   I am the undisputed King of hot wings challenge<p>
@@ -117,7 +146,7 @@
 
         <div class="row">
 
-          <div class="pricing-column col-lg-4 col-md-6">
+          <div class="pricing-column col-lg-6 col-md-12">
             <div class="card">
               <div class="card-header">
                 <h3>1 Day</h3>
@@ -132,7 +161,7 @@
             </div>
           </div>
 
-          <div class="pricing-column col-lg-4 col-md-6">
+          <div class="pricing-column col-lg-6 col-md-12">
             <div class="card">
               <div class="card-header">
                 <h3>1 week</h3>
@@ -147,7 +176,7 @@
             </div>
           </div>
 
-          <div class="pricing-column col-lg-4">
+          <div class="pricing-column col-lg-6 col-md-12">
             <div class="card">
               <div class="card-header">
                 <h3>Complete Website</h3>
@@ -181,7 +210,7 @@
        <td> ⭐⭐⭐⭐ </td>
        </tr>
      <tr>
-       <td> React <td>
+       <td> <dfn>React </dfn><td>
        <td> ⭐⭐ </td>
       </tr>
 
