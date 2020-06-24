@@ -3,11 +3,7 @@ body {
   background-color:#C5C571;
   text-align: center;
 }
-span {
-  background-color: blue;
-  color: white;
 
-}
 span {
   color: white;
   background-color: black;
@@ -17,9 +13,13 @@ h1 {
   color:#C47C35;
   text-decoration:none;
   font-family: serif;
-  width: 10%;
+  width: 20%;
   margin: 0 auto 0 auto;
 
+
+}
+h2 {
+  margin-top: 15px;
 }
 
 h3 {
@@ -38,30 +38,28 @@ p {
   font-size: 20px;
 }
 
- }
-p {
-  font-family: monospace;
-  font-size: 30px;
-}
 table {
   margin: auto;
   text-align: center;
 }
+
 /********************** CLASS SELECTORS *****************/
 .gallery {
   font-size: 30px;
 }
 .topcloud {
-  top: 0px;
+  top: 5px;
+  position: relative;
+  display: inline-block;
 }
 .mountain {
   position: relative;
-  margin-right: 100px;
+
 
 }
 .top-cloud {
   position: absolute;
-  right: 450px;
+  right:20px;
   display: inline;
 
 }
@@ -70,10 +68,10 @@ table {
 
 }
 .profile {
-  margin-left: 100px;
+  margin-left: 20px;
   position:relative;
   width:20%;
-  float: left;
+  float: right;
 }
 
 .skill-row {
@@ -82,10 +80,7 @@ table {
   text-align: left;
   line-height: 2;
 }
-.intro {
-  :
 
-}
 .code-img {
   width:13.2%;
 }
@@ -94,20 +89,33 @@ table {
 }
 .icon-js{
   width:14%;
-  float:right;
+
 }
 .icon-css {
   width:14%;
-  float:left;
+
 }
   .paragraph1 {
-    width:50%;
+    width:100%;
   }
 
-#heading-name {
-  width:10%;
-  margin-top: 200px;
+.footer-link {
+  margin:20px;
 }
 .jumbotron {
   margin-top: auto;
+}
+.navbar-brand{
+  padding-left: 50px;
+
+}
+.secBtn {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.white-section {
+  width:100%;
+  text-align: center;
+  position: relative;
+
 }
