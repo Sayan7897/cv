@@ -3,7 +3,12 @@ body {
   background-color:#C5C571;
   text-align: center;
 }
-
+a {
+text-decoration: none;
+}
+a:hover {
+  color: rgb(200,122,22);
+}
 span {
   color: white;
   background-color: black;
