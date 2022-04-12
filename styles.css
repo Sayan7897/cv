@@ -3,6 +3,10 @@ body {
   background-color:#C5C571;
   text-align: center;
 }
+.bubbles {
+  position:auto;
+  width:auto;
+  margin-top:20px;}
 a {
 text-decoration: none;
 }
