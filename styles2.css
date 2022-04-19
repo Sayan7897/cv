@@ -1,1 +1,133 @@
+body {
+  background-color:#C5C571;
+  text-align: center;
+}
+.bubbles {
+  position:auto;
+  width:auto;
+  margin-top:20px;}
 
+#testimonials {
+  background-color:#ef8172;
+  color:#fff;
+  width:auto;
+}
+.testimonial-image {
+  width: auto;
+  max-height:200px;
+  border-radius: 100%;
+  margin:20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+a {
+text-decoration: none;
+}
+a:hover {
+  color: rgb(200,122,22);
+}
+span {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
+h1 {
+  color:#C47C35;
+  text-decoration:none;
+  font-family: serif;
+  width: 50%;
+  margin: 10px, 20px, 10px, 20px;
+  text-align:center;
+
+
+}
+h2 {
+  margin-top: 15px;
+}
+
+h3 {
+  color: #C47C35
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+p {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+#navbarTogglerDemo02{
+  position: fixed;
+}
+/********************** CLASS SELECTORS *****************/
+
+.gallery {
+  font-size: 30px;
+}
+
+}
+.profile {
+  margin-left: 20px;
+  position:relative;
+  width:50%;
+  float: right;
+  z-index: -1;
+}
+
+.skill-row {
+  width:80%;
+  margin: 30px auto 30px auto;
+  text-align: center;
+  line-height: 1;
+}
+
+.code-img {
+  width:13.2%;
+}
+.icon-java {
+  width:23.2%;
+}
+.icon-js{
+  width:14%;
+
+}
+.icon-css {
+  width:14%;
+
+}
+  .paragraph1 {
+    width:100%;
+  }
+
+.footer-link {
+  margin:20px;
+}
+.jumbotron {
+  margin-top: auto;
+}
+
+
+.secBtn {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.white-section {
+  width:100%;
+  text-align: center;
+  position: relative;
+}
+.card{
+  margin:10px;
+}
