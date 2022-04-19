@@ -7,6 +7,22 @@ body {
   position:auto;
   width:auto;
   margin-top:20px;}
+
+#testimonials {
+  background-color:#ef8172;
+  color:#fff;
+}
+.testimonial-image {
+  width: 30%;
+  max-height:200px;
+  border-radius: 100%;
+  margin:20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5
+}
+
 a {
 text-decoration: none;
 }
