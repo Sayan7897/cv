@@ -11,9 +11,10 @@ body {
 #testimonials {
   background-color:#ef8172;
   color:#fff;
+  width:auto;
 }
 .testimonial-image {
-  width: 40%;
+  width: auto;
   max-height:200px;
   border-radius: 100%;
   margin:20px;
